@@ -24,7 +24,7 @@ FullCD Workflow:
 1.	Clone https://gerrit.mtn5.cci.att.com/#/admin/projects/aic-opssimple-fullcd repository in local VM/laptop.
 2.	Under jenkinsvm dir, update “jenkinsvm_meta_data.yaml”, network details with available PXE IP for “eth0” , Management IP (vlan 2001) for “eth1”, in case of Large Site.
 3. Update hostname with <ENV>(eg.mtn11) in “jenkinsvm_user_data.yaml” and Copy whole jenkinsvm dir on to Seed Node.
-
+~~~
 ##Login to Seed KVM and perform following steps.
 
 ###Download Jenkins QCOW2
