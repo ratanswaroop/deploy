@@ -1,4 +1,4 @@
-	###AIC OpsSimple Workflow Full CD deployment
+#AIC OpsSimple Workflow Full CD deployment
 ==============================
 FullCD project integrates OpsSimple deployment workflow with CI/CD build processes using Jenkins. 
 
