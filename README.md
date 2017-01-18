@@ -12,12 +12,13 @@ These pipelines, Jobs and sub-jobs, give a clean approach for automation testing
 without having to restart from scratch. Having clear idea on how jenkins work will be helpfull for FULLCD deployment.
 
 FullCD Workflow: 
+~~~
 1. prepare site specific Bootstrap_seed.yaml,opssimple_site.yaml,certs,FQDN's,build binaries etc(already finished in PRE-DG)
 2. Setup a Jenkins VM on Seed node
 3. Bootstrap seed kvm
 4. Bootstrap LCP nodes , launch vms , install openstack , Non-OpenStack components and trigger validation tests
 5. Reset environment if needed.
-
+~~~
 ## Setup jenkins Slave	
 ~~~
 
