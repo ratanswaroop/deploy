@@ -12,7 +12,7 @@
 | FULLCD - Deploy-Compute-KVMs | Computes with different profiles
 | FULLCD - Deploy-Non-Openstack | RO, DCAE, ASTRA, UWA, Nagios (excluding ATT-Tools/MUAM)
 | FULLCD - Deployment Validation | Tempest testing
-| Dashboard - Basic Jenkins GUI & log collection in place |
+| Dashboard |  Basic Jenkins GUI & log collection in place |
 | LCM Integration |	
 
 
