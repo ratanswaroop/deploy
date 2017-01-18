@@ -69,6 +69,7 @@ o	Jenkins_slave_name: MTN11
 If Pipeline job fails, DE will need to re-run the FAILED Job after fixing the configuration if necessary and then continue executing individual downstream jobs only.
 
 To Wipeout the Whole Lab:
+~~~
 1. Login to the Jenkins dashboard:  https://jenkins.mtn5.cci.att.com/view/FULL-CD/
 2. Select “Full-CD” in the tabs and click on https://jenkins.mtn5.cci.att.com/view/FULL-CD/job/FULLCD-Wipeout-lab/ 
 3. In the left-nav, click on “Build with Parameters”, fill in details as shown below and click on “Build” 
@@ -78,7 +79,7 @@ To Wipeout the Whole Lab:
 	ENV-TYPE: lcp/devtest 
 	ENV-NAME: MTN11
 	Jenkins_slave_name: MTN11
-
+~~~
 
 
 
