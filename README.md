@@ -4,9 +4,9 @@
 ###hawa
 |  | **Deployment Task** |  |
 | --- | --- | --- |
-| FULLCD | Update-Apollo	Fetching Config Data | Update the configuration files bootstrap_fuelastute, bootstrap_fuelplugins, site.yaml | 
+| FULLCD | Update-Apollo | Fetching Config DataUpdate the configuration files bootstrap_fuelastute, bootstrap_fuelplugins, site.yaml | 
 | FULLCD | Bootstrap-KVMs | Install the Seed KVM's and MAAS, OPSC,FUEL VMs | 
-|
+|FULLCD | Configure-Opssimple | Update Configuration and AIC packages for install |
  |
  |
  |
