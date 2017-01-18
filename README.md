@@ -5,7 +5,7 @@
 |  | **Deployment Task** |  |
 | --- | --- | --- |
 | FULLCD | Update-Apollo	Fetching Config Data | Update the configuration files bootstrap_fuelastute, bootstrap_fuelplugins, site.yaml | 
-| --- | --- | --- | 
+| FULLCD | Bootstrap-KVMs | Install the Seed KVM's and MAAS, OPSC,FUEL VMs | 
 |
  |
  |
