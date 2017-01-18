@@ -44,11 +44,11 @@ To start the site build, after setting up of Jenkins slave and master setup.
 -	Select “Full-CD” in the tabs and click on “FullCD-Depolylab-Pipeline” (https://jenkins.mtn5.cci.att.com/view/FULL-CD/job/FULLCD-Deploylab-Pipeline/) 
 -	In the left-nav, click on “Build with Parameters”, fill in details as shown below and click on “Build” 
 ~~~
-o	Gerrit-Branch : AIC-Branch 3.0.2/3.5, e.g release/3.0.1, master      
-o	ENV-TYPE: lcp/devtest 
-o	ENV-NAME: MTN11
-o	CLONE_REPOS: TRUE 
-o	Jenkins_slave_name: MTN11
+	Gerrit-Branch : AIC-Branch 3.0.2/3.5, e.g release/3.0.1, master      
+	ENV-TYPE: lcp/devtest 
+	ENV-NAME: MTN11
+	CLONE_REPOS: TRUE 
+	Jenkins_slave_name: MTN11
 ~~~
 -	Check the active logs and build progress from Jenkins dashboard 
 -	Various Jenkins jobs can be submitted, to deploy end-to-end submit “FullCD-DeployLab-Pipeline” if requirement is to just do a piece of overall deployment,
